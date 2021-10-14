@@ -34,11 +34,11 @@ public class Fantasy extends Book {
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.out.println("Fantasy");
+        System.out.println("Goblins and stuff");
     }
 
     public void tellStory() {
-        System.out.println("Story in fantasy world.");
+        System.out.println("Story in fantasy world with magic.");
     }
 
 

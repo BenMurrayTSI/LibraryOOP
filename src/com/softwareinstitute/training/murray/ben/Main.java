@@ -22,5 +22,17 @@ public class Main {
         System.out.println(myFantasy.getCoverType());
         System.out.println(myFantasy.getPages());
 
+        System.out.println();
+
+        Biography myBiography = new Biography();
+        myBiography = new Biography();
+
+        System.out.println(myBiography.getItemTitle());
+        System.out.println(myBiography.getWriterName());
+        System.out.println(myBiography.getCoverType());
+        System.out.println(myBiography.getPages());
+
+
+
     }
 }
