@@ -1,10 +1,14 @@
 package com.softwareinstitute.training.murray.ben;
 
-public interface NonFiction {
+public interface TellsNonFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
-    void definitionOfNonFiction();
+    void realBeginning();
+
+    void realMiddle();
+
+    void realEnd();
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 

@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Documentary extends DVD implements NonFiction {
+public class Documentary extends DVD implements TellsNonFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
@@ -39,7 +39,17 @@ public class Documentary extends DVD implements NonFiction {
     }
 
     @Override
-    public void definitionOfNonFiction(){
+    public void realBeginning(){
+
+    }
+
+    @Override
+    public void realMiddle(){
+
+    }
+
+    @Override
+    public void realEnd(){
 
     }
 

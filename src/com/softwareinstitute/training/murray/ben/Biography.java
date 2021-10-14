@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Biography extends Book implements NonFiction {
+public class Biography extends Book implements TellsNonFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
@@ -39,7 +39,17 @@ public class Biography extends Book implements NonFiction {
     }
 
     @Override
-    public void definitionOfNonFiction(){
+    public void realBeginning(){
+
+    }
+
+    @Override
+    public void realMiddle(){
+
+    }
+
+    @Override
+    public void realEnd(){
 
     }
 
