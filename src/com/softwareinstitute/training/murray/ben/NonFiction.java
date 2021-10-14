@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class CatsVsRobots {
+public interface NonFiction {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
