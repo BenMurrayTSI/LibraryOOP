@@ -12,5 +12,15 @@ public class Main {
         System.out.println(defaultFantasy.getCoverType());
         System.out.println(defaultFantasy.getPages());
 
+        System.out.println();
+
+        Fantasy myFantasy = new Fantasy();
+        myFantasy = new Fantasy("Notes","Ben","Hardcover",10);
+
+        System.out.println(myFantasy.getItemTitle());
+        System.out.println(myFantasy.getWriterName());
+        System.out.println(myFantasy.getCoverType());
+        System.out.println(myFantasy.getPages());
+
     }
 }
