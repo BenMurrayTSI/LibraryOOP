@@ -1,6 +1,7 @@
 package com.softwareinstitute.training.murray.ben;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public abstract class LibraryItem {
 
@@ -52,4 +53,7 @@ public abstract class LibraryItem {
     public void setReleaseDate(LocalDate releaseDate) {
         this.releaseDate = releaseDate;
     }
+
+    ArrayList<LibraryItem> Items = new ArrayList<>();
+
 }

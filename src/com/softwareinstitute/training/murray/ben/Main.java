@@ -1,8 +1,13 @@
 package com.softwareinstitute.training.murray.ben;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
+
+        ArrayList<LibraryItem> items = new ArrayList<>();
+
         System.out.println();
 
         System.out.println("Book-Fantasy");
@@ -52,5 +57,15 @@ public class Main {
         myAnimation.setting();
         myAnimation.tellStory();
         System.out.println();
+
+        items.add(myFantasy);
+        items.add(myBiography);
+        items.add(myDocumentary);
+        items.add(myAnimation);
+
+        Library everything = new Library(items);
+
+        System.out.println(everything);
+
     }
 }
