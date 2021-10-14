@@ -9,15 +9,15 @@ public class Biography extends Book implements NonFiction{
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
     public Biography() {
-        super("Becoming");
+        this("Becoming");
     }
 
     public Biography(String itemTitle) {
-        super(itemTitle, "Michelle Obama");
+        this(itemTitle, "Michelle Obama");
     }
 
     public Biography(String itemTitle, String writerName) {
-        super(itemTitle, writerName, "Hardcover");
+        this(itemTitle, writerName, "Hardcover");
     }
 
     public Biography(String itemTitle, String writerName, String coverType) {

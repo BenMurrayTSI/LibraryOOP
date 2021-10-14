@@ -9,19 +9,6 @@ public abstract class Book extends LibraryItem {
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
-    public Book(String itemTitle) {
-        super(itemTitle);
-    }
-
-    public Book(String itemTitle, String writerName) {
-        super(itemTitle, writerName);
-    }
-
-    public Book(String itemTitle, String writerName, String coverType) {
-        super(itemTitle, writerName);
-        this.coverType = coverType;
-    }
-
     public Book(String itemTitle, String writerName, String coverType, int pages) {
         super(itemTitle, writerName);
         this.coverType = coverType;

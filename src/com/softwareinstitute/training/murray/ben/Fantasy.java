@@ -9,15 +9,15 @@ public class Fantasy extends Book {
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
     public Fantasy() {
-        super("The Two Towers");
+        this("The Two Towers");
     }
 
     public Fantasy(String itemTitle) {
-        super(itemTitle, "Tolkien");
+        this(itemTitle, "Tolkien");
     }
 
     public Fantasy(String itemTitle, String writerName) {
-        super(itemTitle, writerName, "Paperback");
+        this(itemTitle, writerName, "Paperback");
     }
 
     public Fantasy(String itemTitle, String writerName, String coverType) {
