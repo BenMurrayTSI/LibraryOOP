@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Biography extends Book implements NonFiction{
+public class Biography extends Book implements NonFiction {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 

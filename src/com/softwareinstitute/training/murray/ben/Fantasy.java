@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Fantasy extends Book {
+public class Fantasy extends Book implements TellsFictionalStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
@@ -41,6 +41,19 @@ public class Fantasy extends Book {
         System.out.println("Tells story with magic.");
     }
 
+    @Override
+    public void beginning() {
 
+    }
+
+    @Override
+    public void middle() {
+
+    }
+
+    @Override
+    public void end() {
+
+    }
 
 }

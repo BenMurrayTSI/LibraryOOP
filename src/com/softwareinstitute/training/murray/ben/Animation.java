@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Animation extends DVD{
+public class Animation extends DVD implements TellsFictionalStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
@@ -36,6 +36,21 @@ public class Animation extends DVD{
 
     public void tellStory() {
         System.out.println("Tells story with animated characters.");
+    }
+
+    @Override
+    public void beginning() {
+
+    }
+
+    @Override
+    public void middle() {
+
+    }
+
+    @Override
+    public void end() {
+
     }
 
 }
