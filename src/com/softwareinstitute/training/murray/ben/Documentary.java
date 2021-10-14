@@ -9,11 +9,11 @@ public class Documentary extends DVD implements NonFiction {
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
     public Documentary() {
-        this("Amy");
+        this("Documentary_DVD_Title");
     }
 
     public Documentary(String itemTitle) {
-        this(itemTitle, "Asif Kapadia");
+        this(itemTitle, "Jane Doe");
     }
 
     public Documentary(String itemTitle, String writerName) {
@@ -21,7 +21,7 @@ public class Documentary extends DVD implements NonFiction {
     }
 
     public Documentary(String itemTitle, String writerName, String quality) {
-        super(itemTitle, writerName, quality, 128);
+        super(itemTitle, writerName, quality, 110);
     }
 
     public Documentary(String itemTitle, String writerName, String coverType, int length) {
@@ -31,11 +31,11 @@ public class Documentary extends DVD implements NonFiction {
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.out.println("The real world.");
+        System.out.println("Setting is the real world.");
     }
 
     public void tellStory() {
-        System.out.println("Shows real events.");
+        System.out.println("Tells story about real events.");
     }
 
     @Override

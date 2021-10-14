@@ -9,11 +9,11 @@ public class Animation extends DVD{
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
     public Animation() {
-        this("Wall-E");
+        this("Animation_DVD_Title");
     }
 
     public Animation(String itemTitle) {
-        this(itemTitle, "Andrew Stanton");
+        this(itemTitle, "Jane Doe");
     }
 
     public Animation(String itemTitle, String writerName) {
@@ -21,7 +21,7 @@ public class Animation extends DVD{
     }
 
     public Animation(String itemTitle, String writerName, String quality) {
-        super(itemTitle, writerName, quality, 97);
+        super(itemTitle, writerName, quality, 90);
     }
 
     public Animation(String itemTitle, String writerName, String coverType, int length) {
@@ -31,11 +31,11 @@ public class Animation extends DVD{
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.out.println("Can be any setting.");
+        System.out.println("Setting could be anything.");
     }
 
     public void tellStory() {
-        System.out.println("Story told with animated characters.");
+        System.out.println("Tells story with animated characters.");
     }
 
 }

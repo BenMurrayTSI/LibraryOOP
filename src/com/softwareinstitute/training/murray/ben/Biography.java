@@ -9,11 +9,11 @@ public class Biography extends Book implements NonFiction{
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
     public Biography() {
-        this("Becoming");
+        this("Biography_Book_Title");
     }
 
     public Biography(String itemTitle) {
-        this(itemTitle, "Michelle Obama");
+        this(itemTitle, "John Doe");
     }
 
     public Biography(String itemTitle, String writerName) {
@@ -21,7 +21,7 @@ public class Biography extends Book implements NonFiction{
     }
 
     public Biography(String itemTitle, String writerName, String coverType) {
-        super(itemTitle, writerName, coverType, 448);
+        super(itemTitle, writerName, coverType, 600);
     }
 
     public Biography(String itemTitle, String writerName, String coverType, int pages) {
@@ -31,11 +31,11 @@ public class Biography extends Book implements NonFiction{
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.out.println("The real world.");
+        System.out.println("Setting is the real world.");
     }
 
     public void tellStory() {
-        System.out.println("Story of a real person.");
+        System.out.println("Tells story of a real person.");
     }
 
     @Override

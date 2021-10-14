@@ -9,11 +9,11 @@ public class Fantasy extends Book {
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
     public Fantasy() {
-        this("The Two Towers");
+        this("Fantasy_Book_Title");
     }
 
     public Fantasy(String itemTitle) {
-        this(itemTitle, "Tolkien");
+        this(itemTitle, "John Doe");
     }
 
     public Fantasy(String itemTitle, String writerName) {
@@ -21,7 +21,7 @@ public class Fantasy extends Book {
     }
 
     public Fantasy(String itemTitle, String writerName, String coverType) {
-        super(itemTitle, writerName, coverType, 352);
+        super(itemTitle, writerName, coverType, 400);
     }
 
     public Fantasy(String itemTitle, String writerName, String coverType, int pages) {
@@ -34,11 +34,11 @@ public class Fantasy extends Book {
     /////////////////////////////////////////Methods////////////////////////////////////////////
 
     public void setting() {
-        System.out.println("Goblins and stuff.");
+        System.out.println("Setting is goblins and stuff.");
     }
 
     public void tellStory() {
-        System.out.println("Story in fantasy world with magic.");
+        System.out.println("Tells story with magic.");
     }
 
 
