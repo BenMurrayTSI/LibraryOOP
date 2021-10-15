@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Animation extends DVD implements TellsFictionalStory {
+public class AnimationDVD extends DVD implements TellsFictionalStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
@@ -8,23 +8,23 @@ public class Animation extends DVD implements TellsFictionalStory {
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
-    public Animation() {
+    public AnimationDVD() {
         this("Animation_DVD_Title");
     }
 
-    public Animation(String itemTitle) {
+    public AnimationDVD(String itemTitle) {
         this(itemTitle, "Jane Doe");
     }
 
-    public Animation(String itemTitle, String writerName) {
+    public AnimationDVD(String itemTitle, String writerName) {
         this(itemTitle, writerName, "HD");
     }
 
-    public Animation(String itemTitle, String writerName, String quality) {
+    public AnimationDVD(String itemTitle, String writerName, String quality) {
         super(itemTitle, writerName, quality, 90);
     }
 
-    public Animation(String itemTitle, String writerName, String coverType, int length) {
+    public AnimationDVD(String itemTitle, String writerName, String coverType, int length) {
         super(itemTitle, writerName, coverType, length);
     }
 

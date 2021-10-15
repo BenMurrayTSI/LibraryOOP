@@ -9,56 +9,56 @@ public class Main {
         System.out.println();
 
         System.out.println("Book-Fantasy");
-        Fantasy defaultFantasy = new Fantasy();
-        defaultFantasy = new Fantasy();
-        System.out.println("Item title: " + defaultFantasy.getItemTitle());
-        System.out.println("Writer: " + defaultFantasy.getWriterName());
-        System.out.println("Cover type: " + defaultFantasy.getCoverType());
-        System.out.println("Number of pages: " + defaultFantasy.getPages());
-        defaultFantasy.storyMedium();
-        defaultFantasy.setting();
-        defaultFantasy.tellStory();
+        FantasyBook defaultFantasyBook = new FantasyBook();
+        defaultFantasyBook = new FantasyBook();
+        System.out.println("Item title: " + defaultFantasyBook.getItemTitle());
+        System.out.println("Writer: " + defaultFantasyBook.getWriterName());
+        System.out.println("Cover type: " + defaultFantasyBook.getCoverType());
+        System.out.println("Number of pages: " + defaultFantasyBook.getPages());
+        defaultFantasyBook.storyMedium();
+        defaultFantasyBook.setting();
+        defaultFantasyBook.tellStory();
         System.out.println();
 
         System.out.println("Book-Biography");
-        Biography defaultBiography = new Biography();
-        defaultBiography = new Biography();
-        System.out.println("Item title: " + defaultBiography.getItemTitle());
-        System.out.println("Writer: " + defaultBiography.getWriterName());
-        System.out.println("Cover type: " + defaultBiography.getCoverType());
-        System.out.println("Number of pages: " + defaultBiography.getPages());
-        defaultBiography.storyMedium();
-        defaultBiography.setting();
-        defaultBiography.tellStory();
+        BiographyBook defaultBiographyBook = new BiographyBook();
+        defaultBiographyBook = new BiographyBook();
+        System.out.println("Item title: " + defaultBiographyBook.getItemTitle());
+        System.out.println("Writer: " + defaultBiographyBook.getWriterName());
+        System.out.println("Cover type: " + defaultBiographyBook.getCoverType());
+        System.out.println("Number of pages: " + defaultBiographyBook.getPages());
+        defaultBiographyBook.storyMedium();
+        defaultBiographyBook.setting();
+        defaultBiographyBook.tellStory();
         System.out.println();
 
         System.out.println("DVD-Documentary");
-        Documentary defaultDocumentary = new Documentary();
-        defaultDocumentary = new Documentary();
-        System.out.println("Item title: " + defaultDocumentary.getItemTitle());
-        System.out.println("Writer: " + defaultDocumentary.getWriterName());
-        System.out.println("Quality: " + defaultDocumentary.getQuality());
-        System.out.println("Runtime: " + defaultDocumentary.getRuntime());
-        defaultDocumentary.storyMedium();
-        defaultDocumentary.setting();
-        defaultDocumentary.tellStory();
+        DocumentaryDVD defaultDocumentaryDVD = new DocumentaryDVD();
+        defaultDocumentaryDVD = new DocumentaryDVD();
+        System.out.println("Item title: " + defaultDocumentaryDVD.getItemTitle());
+        System.out.println("Writer: " + defaultDocumentaryDVD.getWriterName());
+        System.out.println("Quality: " + defaultDocumentaryDVD.getQuality());
+        System.out.println("Runtime: " + defaultDocumentaryDVD.getRuntime());
+        defaultDocumentaryDVD.storyMedium();
+        defaultDocumentaryDVD.setting();
+        defaultDocumentaryDVD.tellStory();
         System.out.println();
 
         System.out.println("DVD-Animation");
-        Animation defaultAnimation = new Animation();
-        defaultAnimation = new Animation();
-        System.out.println("Item title: " + defaultAnimation.getItemTitle());
-        System.out.println("Writer: " + defaultAnimation.getWriterName());
-        System.out.println("Quality: " + defaultAnimation.getQuality());
-        System.out.println("Runtime: " + defaultAnimation.getRuntime());
-        defaultAnimation.storyMedium();
-        defaultAnimation.setting();
-        defaultAnimation.tellStory();
+        AnimationDVD defaultAnimationDVD = new AnimationDVD();
+        defaultAnimationDVD = new AnimationDVD();
+        System.out.println("Item title: " + defaultAnimationDVD.getItemTitle());
+        System.out.println("Writer: " + defaultAnimationDVD.getWriterName());
+        System.out.println("Quality: " + defaultAnimationDVD.getQuality());
+        System.out.println("Runtime: " + defaultAnimationDVD.getRuntime());
+        defaultAnimationDVD.storyMedium();
+        defaultAnimationDVD.setting();
+        defaultAnimationDVD.tellStory();
         System.out.println();
 
         ArrayList<LibraryItem> items = new ArrayList<>();
 
-        LibraryItem myFantasy = new Fantasy("Two Towers", "Tolkien", "Paperback", 352);
+        LibraryItem myFantasy = new FantasyBook("Two Towers", "Tolkien", "Paperback", 352);
 
         items.add(myFantasy);
 

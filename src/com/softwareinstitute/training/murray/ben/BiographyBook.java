@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Biography extends Book implements TellsNonFictionStory {
+public class BiographyBook extends Book implements TellsNonFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
@@ -8,23 +8,23 @@ public class Biography extends Book implements TellsNonFictionStory {
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
-    public Biography() {
+    public BiographyBook() {
         this("Biography_Book_Title");
     }
 
-    public Biography(String itemTitle) {
+    public BiographyBook(String itemTitle) {
         this(itemTitle, "John Doe");
     }
 
-    public Biography(String itemTitle, String writerName) {
+    public BiographyBook(String itemTitle, String writerName) {
         this(itemTitle, writerName, "Hardcover");
     }
 
-    public Biography(String itemTitle, String writerName, String coverType) {
+    public BiographyBook(String itemTitle, String writerName, String coverType) {
         super(itemTitle, writerName, coverType, 600);
     }
 
-    public Biography(String itemTitle, String writerName, String coverType, int pages) {
+    public BiographyBook(String itemTitle, String writerName, String coverType, int pages) {
         super(itemTitle, writerName, coverType, pages);
     }
 

@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Fantasy extends Book implements TellsFictionalStory {
+public class FantasyBook extends Book implements TellsFictionalStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
@@ -8,23 +8,23 @@ public class Fantasy extends Book implements TellsFictionalStory {
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
-    public Fantasy() {
+    public FantasyBook() {
         this("Fantasy_Book_Title");
     }
 
-    public Fantasy(String itemTitle) {
+    public FantasyBook(String itemTitle) {
         this(itemTitle, "John Doe");
     }
 
-    public Fantasy(String itemTitle, String writerName) {
+    public FantasyBook(String itemTitle, String writerName) {
         this(itemTitle, writerName, "Paperback");
     }
 
-    public Fantasy(String itemTitle, String writerName, String coverType) {
+    public FantasyBook(String itemTitle, String writerName, String coverType) {
         super(itemTitle, writerName, coverType, 400);
     }
 
-    public Fantasy(String itemTitle, String writerName, String coverType, int pages) {
+    public FantasyBook(String itemTitle, String writerName, String coverType, int pages) {
         super(itemTitle, writerName, coverType, pages);
     }
 

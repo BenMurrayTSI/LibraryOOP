@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class Documentary extends DVD implements TellsNonFictionStory {
+public class DocumentaryDVD extends DVD implements TellsNonFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
@@ -8,23 +8,23 @@ public class Documentary extends DVD implements TellsNonFictionStory {
 
     /////////////////////////////////////////Constructors///////////////////////////////////////////
 
-    public Documentary() {
+    public DocumentaryDVD() {
         this("Documentary_DVD_Title");
     }
 
-    public Documentary(String itemTitle) {
+    public DocumentaryDVD(String itemTitle) {
         this(itemTitle, "Jane Doe");
     }
 
-    public Documentary(String itemTitle, String writerName) {
+    public DocumentaryDVD(String itemTitle, String writerName) {
         this(itemTitle, writerName, "HD");
     }
 
-    public Documentary(String itemTitle, String writerName, String quality) {
+    public DocumentaryDVD(String itemTitle, String writerName, String quality) {
         super(itemTitle, writerName, quality, 110);
     }
 
-    public Documentary(String itemTitle, String writerName, String coverType, int length) {
+    public DocumentaryDVD(String itemTitle, String writerName, String coverType, int length) {
         super(itemTitle, writerName, coverType, length);
     }
 
