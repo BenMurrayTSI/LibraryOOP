@@ -38,6 +38,14 @@ public class AnimationDVD extends DVD implements TellsFictionalStory {
         System.out.println("Tells story with animated characters.");
     }
 
+    public String getSetting() {
+        return "Setting could be anything.";
+    }
+
+    public String getTellStory() {
+        return "Tells story with animated characters.";
+    }
+
     @Override
     public void beginning() {
 
@@ -51,6 +59,11 @@ public class AnimationDVD extends DVD implements TellsFictionalStory {
     @Override
     public void end() {
 
+    }
+
+    @Override
+    public String toString() {
+        return "Item title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nQuality: " + getQuality() + "\nRuntime: " + getRuntime() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }

@@ -41,6 +41,14 @@ public class FantasyBook extends Book implements TellsFictionalStory {
         System.out.println("Tells story with magic.");
     }
 
+    public String getSetting() {
+        return "Setting is goblins and stuff.";
+    }
+
+    public String getTellStory() {
+        return "Tells story with magic.";
+    }
+
     @Override
     public void beginning() {
 
@@ -54,6 +62,11 @@ public class FantasyBook extends Book implements TellsFictionalStory {
     @Override
     public void end() {
 
+    }
+
+    @Override
+    public String toString() {
+        return "Item title: " + getItemTitle() + "\nWriter: " + getWriterName() + "\nCoverType: " + getCoverType() + "\nNumber of pages: " + getPages() + "\n" + getStoryMedium() + "\n" + getSetting() + "\n" + getTellStory();
     }
 
 }
