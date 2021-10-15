@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class FantasyBook extends Book implements TellsFictionalStory {
+public class FantasyBook extends Book implements TellsFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 

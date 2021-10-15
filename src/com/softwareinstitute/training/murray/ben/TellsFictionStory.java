@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public interface TellsFictionalStory {
+public interface TellsFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 

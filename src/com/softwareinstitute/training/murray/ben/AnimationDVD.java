@@ -1,6 +1,6 @@
 package com.softwareinstitute.training.murray.ben;
 
-public class AnimationDVD extends DVD implements TellsFictionalStory {
+public class AnimationDVD extends DVD implements TellsFictionStory {
 
     /////////////////////////////////////////Attributes////////////////////////////////////////////
 
